@@ -1,16 +1,12 @@
 ---
 layout: page
-title: Sobre mim
+title: 
 subtitle: 
 ---
 
 <p class="about-text">
-<span class="fa fa-graduation-cap about-icon"></span>
-Obtained my MSc in <strong>Bioinformatics</strong> from the University of British Columbia (supervised by the amazing
-<a href="https://twitter.com/JennyBryan" target="_blank">Jenny Bryan</a>) and my Bachelor of <strong>Computer Science</strong> from the
-University of Waterloo, Canada. My masters thesis project involved
-<a href="https://github.com/daattali/ddpcr" target="_blank">developing computational methods to automatically analyze
-droplet digital PCR</a> data.
+<span class="fa fa-file-pdf-o about-icon"></span>
+<a href="http://lattes.cnpq.br/0578969416600036" target="_blank">Lattes</a> data.
 </p>
 
 
