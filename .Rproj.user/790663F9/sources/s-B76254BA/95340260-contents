@@ -1,8 +1,9 @@
 ---
 layout: page
-title: About me
+title: Sobre mim
 subtitle: 
 ---
+
 
 # Curso de Extensão da UFFS Cerro Largo em *software* livre R
 
