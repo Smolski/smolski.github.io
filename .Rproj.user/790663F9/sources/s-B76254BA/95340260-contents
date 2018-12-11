@@ -4,6 +4,7 @@ title:
 subtitle: 
 ---
 
+<!--
 <p class="about-text">
 <span class="fa fa-file-pdf-o about-icon"></span>
 <a href="http://lattes.cnpq.br/0578969416600036" target="_blank">Currículo Lattes</a>
@@ -15,7 +16,7 @@ subtitle:
 <a href="https://scholar.google.com.br/citations?user=Pt6gxR4AAAAJ&hl=pt-BR" target="_blank">Google Scholar</a>
 </p>
 
-
+-->
 
 <p class="about-text">
 <span class="fab fa-researchgate"></span>
