@@ -6,7 +6,14 @@ subtitle:
 
 <p class="about-text">
 <span class="fa fa-file-pdf-o about-icon"></span>
-<a href="http://lattes.cnpq.br/0578969416600036" target="_blank">Lattes</a> data.
+<a href="http://lattes.cnpq.br/0578969416600036" target="_blank">Currículo Lattes</a>
+
+</p>
+
+<p class="about-text">
+<span class="fas fa-graduation-cap"></span>
+<a href="https://scholar.google.com.br/citations?user=Pt6gxR4AAAAJ&hl=pt-BR" target="_blank">Google Schoolar</a>
+
 </p>
 
 
