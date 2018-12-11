@@ -4,6 +4,15 @@ title: Sobre mim
 subtitle: 
 ---
 
+<p class="about-text">
+<span class="fa fa-graduation-cap about-icon"></span>
+Obtained my MSc in <strong>Bioinformatics</strong> from the University of British Columbia (supervised by the amazing
+<a href="https://twitter.com/JennyBryan" target="_blank">Jenny Bryan</a>) and my Bachelor of <strong>Computer Science</strong> from the
+University of Waterloo, Canada. My masters thesis project involved
+<a href="https://github.com/daattali/ddpcr" target="_blank">developing computational methods to automatically analyze
+droplet digital PCR</a> data.
+</p>
+
 
 # Curso de Extensão da UFFS Cerro Largo em *software* livre R
 
