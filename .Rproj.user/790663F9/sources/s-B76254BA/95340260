@@ -5,13 +5,15 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "2663425401",
+    "hash" : "0",
     "id" : "95340260",
-    "lastKnownWriteTime" : 1544564616,
-    "last_content_update" : 1544564616,
+    "lastKnownWriteTime" : 1544566824,
+    "last_content_update" : 1544566824768,
     "path" : "D:/Github/smolski.github.io/aboutme.md",
     "project_path" : "aboutme.md",
     "properties" : {
+        "cursorPosition" : "17,0",
+        "scrollLine" : "0"
     },
     "relative_order" : 1,
     "source_on_save" : false,

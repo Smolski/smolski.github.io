@@ -4,13 +4,24 @@ title: About me
 subtitle: Why you'd want to go on a date with me
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+# Curso de Extensão da UFFS Cerro Largo em *software* livre R
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+Acesse em <https://smolski.github.io/softwarelivrer/>.
 
-What else do you need?
+# Manual Mendeley
 
-### my history
+Acesse o conteúdo em  <https://smolski.gitbooks.io/mendeley/content/>.
 
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](http://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+# Bibliografia sugerida
+
+AMARAL, Fernando. **Introdução à Ciencia de Dados: mineração de dados e big data.** Alta Books Editora, 2016.
+
+FERREIRA, Pedro Guilherme Costa (org.). **Análise de séries temporais em R: curso introdutório**. 1. ed. Rio de Janeiro: Elsevier. 2018.
+
+GOLDSCHMIDT, Ronaldo; PASSOS, Emmanuel. **Data Mining**. Rio de Janeiro: Elsevier, 2015.
+
+PROVOST, Foster; FAWCETT, Tom. **Data Science para negócios**. Rio de Janeiro: Alta Books. 2016.
+
+SARTORIS, Alexandre. **Estatística e introdução à econometria.** São Paulo: Saraiva. 2003.
+
+SIEGEL, Eric. **Predictive analytics: The power to predict who will click, buy, lie, or die.** Hoboken: Wiley, 2013.
