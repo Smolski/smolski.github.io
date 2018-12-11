@@ -24,6 +24,7 @@ description: ""
 # List of links in the navigation bar
 navbar-links:
   Sobre: "aboutme"
+    - CV: "http://lattes.cnpq.br/0578969416600036"
   Recursos:
     - Estatística com R: "https://smolski.github.io/softwarelivrer/"
     - Learn markdown: "http://www.markdowntutorial.com/"
