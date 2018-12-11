@@ -25,9 +25,9 @@ description: A virtual proof that name is awesome!
 navbar-links:
   About Me: "aboutme"
   Resources:
-    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
+    - Estatística com R: "https://smolski.github.io/softwarelivrer/"
     - Learn markdown: "http://www.markdowntutorial.com/"
-    - GitHub Pages: "https://pages.github.com/"
+    - Manual Mendeley: "https://smolski.gitbooks.io/mendeley/content/"
   Author's home: "http://deanattali.com"
 
 # Image to show in the navigation bar - image must be a square (width = height)
@@ -78,7 +78,7 @@ social-network-links:
 #  twitter: daattali
 #  reddit: yourname
 #  google-plus: +DeanAttali
-#  linkedin: daattali
+  linkedin: felipe-smolski
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78
