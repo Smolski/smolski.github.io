@@ -12,12 +12,13 @@ subtitle:
 
 <p class="about-text">
 <span class="fa fa-graduation-cap"></span>
-<a href="https://scholar.google.com.br/citations?user=Pt6gxR4AAAAJ&hl=pt-BR" target="_blank">Google Schoolar</a>
+<a href="https://scholar.google.com.br/citations?user=Pt6gxR4AAAAJ&hl=pt-BR" target="_blank">Google Scholar</a>
 </p>
 
+
 
 <p class="about-text">
-<span class="fa fa-researchgate"></span>
+<span class="fab fa-researchgate"></span>
 <a href="https://www.researchgate.net/profile/Felipe_Smolski?ev=hdr_xprfR" target="_blank">Researchgate</a>
 </p>
 
