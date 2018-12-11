@@ -11,11 +11,15 @@ subtitle:
 </p>
 
 <p class="about-text">
-<span class="fas fa-graduation-cap"></span>
+<i class="fas fa-graduation-cap"></span>
 <a href="https://scholar.google.com.br/citations?user=Pt6gxR4AAAAJ&hl=pt-BR" target="_blank">Google Schoolar</a>
-
 </p>
 
+
+<p class="about-text">
+<i class="fab fa-researchgate"></span>
+<a href="https://www.researchgate.net/profile/Felipe_Smolski?ev=hdr_xprfR" target="_blank">Researchgate</a>
+</p>
 
 # Curso de Extensão da UFFS Cerro Largo em *software* livre R
 
