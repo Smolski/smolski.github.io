@@ -5,15 +5,15 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "0",
+    "hash" : "1559486615",
     "id" : "251C1F25",
-    "lastKnownWriteTime" : 1544566626,
-    "last_content_update" : 1544566626322,
+    "lastKnownWriteTime" : 1544566914,
+    "last_content_update" : 1544566914423,
     "path" : "D:/Github/smolski.github.io/_config.yml",
     "project_path" : "_config.yml",
     "properties" : {
-        "cursorPosition" : "19,50",
-        "scrollLine" : "36"
+        "cursorPosition" : "57,2",
+        "scrollLine" : "52"
     },
     "relative_order" : 2,
     "source_on_save" : false,
