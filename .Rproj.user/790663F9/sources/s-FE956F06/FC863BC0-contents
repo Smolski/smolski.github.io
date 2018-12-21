@@ -1,0 +1,169 @@
+---
+title: 'Resiliência Regional: Um conceito em construção?'
+
+author: "Felipe Micail da Silva Smolski^[Mestrando no Programa de Pós-Graduação em Desenvolvimento e Políticas Públicas da Universidade Federal da Fronteira Sul (UFFS), bacharel em Ciências Econômicas pela UNIJUÍ. E-mail: felipesmolski@hotmail.com.]"
+  
+output:
+  word_document:
+    fig_caption: yes
+    keep_md: yes
+    reference_docx: template1.docx
+    toc: no  
+    fig_height: 3
+    fig_width: 7
+  pdf_document: default
+bibliography: [Resiliencia.bib]
+#csl: associacao-brasileira-de-normas-tecnicas-ipea.csl
+csl: associacao-brasileira-de-normas-tecnicas-ipea_alt.csl
+biblio-style: abntex2cite
+lang: pt-BR
+
+---
+
+```{r setup111, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, results = 'asis')
+knitr::opts_chunk$set(dev="png", 
+                      dev.args=list(type="cairo"),
+                      dpi=100)
+require(knitr)
+require(ggplot2)
+require(pander)
+require(stargazer)
+require(knitcitations)
+panderOptions('round', 5)
+panderOptions('keep.trailing.zeros', TRUE)
+options("citation_format" = "pandoc")
+```
+
+
+#Introdução
+
+<!--
+(Geral-Específico)
+(Problemática - Contextualização)
+(resgate da produção teórica - Grandes Grupos)
+(Propósito)
+
+A importância do tema 
+Falar da relação entre o pensamento da Hipótese da Instabilidade Financeira com o papel do Estado.   -->
+
+<!--
+
+##Problema
+
+##Justificativa
+
+(Valor teórico)
+(Importância social)
+
+
+#Revisão da Literatura
+<!--
+(LITERATURA SOBRE O TÓPICO)
+(LITERATURA SOBRE O MÉTODO)
+(ABORDAGEM TEÓRICA)
+(ACHAR UM PAPEL/PROCURAR POR DEBATES)
+
+-->
+
+<!--
+##Resiliência Econômica das Regiões
+-->
+
+#O conceito de Resiliência das Regiões
+<!--
+-Como surgiu o conceito
+-Quem são os fundadores do conceito
+-Sobre o que ele fala
+-Importância do conteito
+
+
+
+-Achados principais
+-Revisão da Literatura
+-->
+
+
+O estudo acerca da resiliência das regiões reside no paradigma em que as sociedades estão absorvidas em sistemas onde ocorrem diversos impactos, sejam econômicos, tecnológicos, políticos, sociais ou ambientais, encarando, por sua vez, crises das mais diversas formas, obstruindo assim as suas trajetórias para o desenvolvimento. Uma das formas em assimilar o conceito da resiliência aqui abordado, seja ela regional, urbana ou local, é como a habilidade de um sistema socioeconômico na sua recuperação de um choque ou uma disrupção, mantendo o mesmo rumo nas crises, e "a capacidade que apresenta quando exposta a um choque, para recuperar o nível de desenvolvimento prévio e/ou reposicioná-lo em patamar superior" [@Goncalves2017].
+
+Este é um conceito abordado nas ciências ecológicas que teve sua utilização adaptada pela geografia econômica, de forma recente, na busca de uma resposta à reestruturação dos locais aos ciclos econômicos e crise, ou mesmo quanto à sua inclusão no ferramental que analisava as diferenças de desenvolvimento entre as regiões. Também, emerge da discussão entre cientistas sociais, gestores da área pública e organizações de vários países, desaguando no campo do desenvolvimento regional [@Silva2016].
+
+A resiliência se torna uma capacidade estratégica da região, pois assim pode suportar as diversas crises sem colapsar, estando mais preparada para com as mudanças e um ambiente cada vez mais complexo. Mesmo sob o olhar dos estudos em desenvolvimento sustentável, torna-se necessário uma ação mais adaptativa, pois os eventos acumulativos provocam uma elevada pressão nos ecossistemas sociais [@Santos2009]. Portanto, regiões resilientes "minimizam os efeitos das crises e demonstram competências para recuperar os pontos nevrálgicos de sua vitalidade socioeconômica quando não conseguem evitá-la" [@Goncalves2017]. Este tema, portanto, vem elencando interesse crescente no meio acadêmico, bem como no que tange às políticas públicas voltadas ao planejamento territorial [@Silva2016].
+
+
+As mudanças abruptas em que um sistema pode apresentar, muitas vezes decorre de mudanças graduais em outro, que possui grandezas diferentes. No caso das regiões, importa analisar que tanto a escala temporal é significativa quanto a geográfica. Assim, é de vital importância para as regiões a internalização da criação de uma resiliência evolutiva [@Goncalves2017]. Da mesma forma, a relevância do tema deriva de um contexto global de intensa instabilidade e turbulência para instituições como as regiões, os Estados, as empresas, as comunidades e as famílias. Há uma interação maior em tempos de intensa globalização, maior interdependência e velocidade de interação entre os agentes [@Santos2009, p.31-32].
+
+A definição de resiliência sofreu diversas modificações, por parte das disciplinas externas à física ou da engenharia, para representar significados que sejam desvinculados aos comportamentos das estruturas, passando o sentido de resiliência para flexibilidade [@Goncalves2017], tendo também aplicação mais generalizada como ligada aos temas de sustentabilidade [@Santos2009, p.31]. O Quadro 1 retoma algumas instâncias que @Goncalves2017 elenca na literatura das noções de resiliência utilizada pelos autores.
+
+
+|Abordagem|Definições|Autor|
+|:---:|:---|:---:|
+|Descritiva|“[...] medida da persistência e capacidade dos sistemas para absorver mudanças e perturbações mantendo a população e a estrutura de relações (ou entre variáveis de estado) [...]”|(Holling, 1973, p. 14)|
+||“[...] magnitude de perturbação que podem ser absorvidas, alterando as variáveis e os processos que controlam o seu comportamento, antes que o sistema mude a sua estrutura [...]”|(Holling & Meffet, 1996, p. 4);|
+||“[...] capacidade de um sistema experienciar choques mantendo, essencialmente, a mesma função, estrutura, reações, e portanto, preservando a identidade [...]”|(Walker & Salt, 2006, p. 2)|
+|Capacidade de Territórios|“[...] para absorver perturbações, para gerar auto‑organizaçãoe para desencadear aprendizagem e adaptação [...]”|(Walker et al., 2002);|
+||“[...] latitude (largura do domínio), resistência (altura do domínio), precariedade, relações entre escalas [...]”|(Folke et al., 2004, p. 573)|
+|Propor dimensões operacionais|“resiliência do quê e para quê?”|(Carpenter et al., 2001);|
+||“[...] capacidade que o sistema demonstra de manter a sua identidade em quadros de perturbações, mudança e choques internos e externos [...]”|(Cumming et al.,2005, p. 976)|
+|Aspectos Sociais|“[...] capacidade que grupos ou comunidades manifestam para lidar com tensões e distúrbios externos, resultantes de mudanças sociais, políticas e ambientais [...]”|(Adger,2000, p. 347)|
+|Sociedade e Economia|“[...] probabilidade de transição entre estados, como função do balanço entre atividades de produção e padrões de consumo, condicionada pela ação dos decisores [...]”|(Brock et al., 2002, p.273)|
+||“[...] capacidade presente no sistema para suportar choques no funcionamento do mercado ou na estrutura ambiental, sem comprometer a eficiência na distribuição de recursos [...]”|(Perrings, 2006, p. 418).|
+|Abordagens Híbridas|“[...] capacidade intrínseca que o ecossistema apresenta para manter os serviços ambientais desejados, mesmo em conjunturas ambientais instáveis induzidas pelas atividades humanas [...]”|(Folke et al., 2002, p. 14)|
+||“[...] capacidade que um sistema socioecológico apresenta para absorver perturbações recorrentes [...] mantendo as estruturas essenciais, os processos e os feedbacks [...]”|(Adger et al.,2005, p. 1036)|
+||“[...] propriedades quantitativas que, nos ecossistemas, mudam de modo dinâmico em todos os níveis da hierarquia [...]”|(Holling, 2001)|
+|Resiliência Territorial|“[...] perspetiva ou abordagem, capaz de analisar sistemas socioecológicos [...]”|(Folke, 2006, p. 260)|
+||“[...] flexibilidade projetada no longo prazo [...]”|(Pickett et al., 2004, p. 381)|
+||“[...] capacidade de manutenção, a longo prazo, de um dado capital natural [...]”|(Ott & Döring, 2004, p. 213)|
+||Fonte: Elaborado a partir de @Goncalves2017.|
+Table:**Quadro 1:** Definições de Resiliência.
+
+
+
+No campo da economia, a atenção aos estudos dos ciclos de negócios regionais já vem de longa data; bem como da sensibilidade dos locais e sua sincronia com as flutuações econômicas; também a identificação das variações acerca da produção industrial local quanto aos rumos da economia e sua diversidade produtiva. Uma questão que se configura importante é esclarecer o quão profundo é o impacto das recessões e ciclos de negócios nas regiões, uma vez que podem se formar desigualdades que tornam permanentes [@Martin2016].
+
+Há que se considerar, portanto, que as regiões exibem diferentes níveis de resiliência às recessões, ao mesmo tempo que possuem diferentes habilidades para recuperarem-se de movimentos de contração econômica e posteriormente exibirem retomadas ou expansões.  O choque econômico, portanto, se manifesta pelo evento que rompe com o padrão de crescimento esperado de uma economia. As recessões se revelam com impactos profundos de contração da atividade econômica, fechamento de firmas e queda no nível de emprego [@Martin2016]. 
+
+É de interesse das comunidades nas regiões, e portanto, ao pesquisador, desvendar de que forma um sistema volta ao estado pré-crise, movendo-se de forma mais favorável aos anseios da comunidade, ou seja, voltar a atingir um determinado estado desejado. "*The basic idea of resilience is that it captures how an entity or system reacts to and recovers from an adverse disruption*" [@Martin2016]. 
+
+Na concepção de @Martin2016[p.564] são quatro as dimensões distintas que as regiões possuem com processos recessivos: a) *resistência*: sendo constituído pelo grau de sensibilidade aos choques ou mesmo aos padrões de reação; b) *recuperação*: que se caracteriza pela velocidade em que uma região se recupera dos choques; c) *re-orientação*: os novos rumos em que o sentido adaptativo do local exerce sobre a economia regional; d) *renovação*: rumos que toma a economia local, retomando os padrões de crescimento e produção anteriores ou tomando outros rumos.
+
+**Figura 1** - Resiliência Regional à Recessões
+
+![Fonte: @Martin2016](Resiliencia.png)
+
+
+No entanto, as questões dos processos sobre a resiliência econômica são movimentos multifacetados, nas palavras do autor, "*not a singular, static state of affairs or fixed characteristic of a regional or local economy [...]*" @Martin2016[p.564]. Assim, em cada região existem *riscos* inerentes que podem impactar as suas indústrias, trabalhadores e regiões; bem como fatores que fornecem *resistência* a estes agentes; a habilidade adaptativa destes agentes, ou seja, de *reorientação*, para quando do início dos choques e; a habilidade de *recuperação* dos choques, como mostra a Figura 1.
+
+Ainda, os processos dependem da natureza, complexidade e duração das recessões. Há que se observar, da mesma forma, o padrão da estrutura determinante do crescimento da região: estrutura econômica, recursos, competências e capacidades, apoio das instituições locais (governos, políticas de bem-estar social, incentivos ao desenvolvimento de negócios). Estes são fatores imprescindíveis para determinar a forma com que as regiões são afetadas pelos choques econômicos ou mesmo resistem a eles. A sua capacidade em reconfigurar fatores regionais como o emprego, a rentabilidade do setor produtivo e o investimento regional, definem então em que nível de robustez adaptativa as economias regionais se encontram @Martin2016.
+
+
+**Figura 2** - Determinantes da Resiliência Econômica Regional
+
+![Fonte: @Martin2016](DResiliencia.png)
+
+
+Como demonstra @Martin2016 (Figura 2), existiriam uma série de determinantes para a resiliência econômica das regiões, como a Estrutura Industrial e de Negócios de uma comunidade, seus Arranjos Financeiros, as condições nas quais o Mercado de Trabalho se encontra e os Arranjos de Governança, representados pelas políticas governamentais e de regulação.
+
+A estrutura industrial de uma região (além do arcabouço institucional, como visto) possui relação direta com a sensibilidade do local aos choques econômicos e recessões. Sobretudo, uma economia que apresente maior diversidade e estrutura produtiva variada (especialização diversificada ou complexa), esta manifesta maiores resistências aos choques do que uma estrutura produtiva altamente especializada em poucos produtos^[Muitos autores retomados por @Martin2016 dissertam sobre o papel fundamental da especialização sobre o crescimento econômico regional.]. Isto porque, "*diferent industries themselves have different elasticities of demand, different export markets, different dependence on monetary conditions (exchange rates, interest rates, debt financing)*" @Martin2016[p.570], o que faz com que exista uma diluição do risco econômico. Já em economias altamente especializadas, estas podem ser profundamente vulneráveis e instáveis, sendo sua produção atingida diretamente por uma recessão com maior facilidade.
+
+
+
+
+
+Alguns desafios na literatura que trata sobre o tema são impostos, pelo fato de que o conceito de resiliência, no campo da Geografia Econômica e nos estudos em desenvolvimento, é muito recente. Estes são, por sua vez, originados das lacunas teóricas e metodológicas que um tema emergente encontra em seu caminho para responder aos anseios econômicos e sociais. Inclusive, as dúvidas resultam dos questionamentos acerca do papel das instituições, do Estado e das políticas públicas para construção de sistemas resilientes e adaptativos [@Silva2016].
+
+#Conclusão
+
+<!--
+###A Hipótese da Instabilidade Financeira de Minsky
+
+
+###Possibilidades entre as teorias
+-->
+
+#Referências
+
+
+
+
+

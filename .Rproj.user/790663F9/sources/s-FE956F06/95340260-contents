@@ -4,7 +4,7 @@ title:
 subtitle: 
 ---
 
-<!--
+<!   --
 <p class="about-text">
 <span class="fa fa-file-pdf-o about-icon"></span>
 <a href="http://lattes.cnpq.br/0578969416600036" target="_blank">Currículo Lattes</a>
@@ -19,7 +19,6 @@ subtitle:
 -->
 
 <p class="about-text">
-<span class="fab fa-researchgate"></span>
 <a href="https://www.researchgate.net/profile/Felipe_Smolski?ev=hdr_xprfR" target="_blank">Researchgate</a>
 </p>
 
