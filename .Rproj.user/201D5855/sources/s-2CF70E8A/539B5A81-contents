@@ -1,0 +1,105 @@
+---
+title: "Replace with Main Title"
+author: "Your Name"
+date: "2019-02-17 13:23:59"
+---
+
+
+```{r echo=FALSE, message=FALSE}
+# include this code chunk as-is to set options
+knitr::opts_chunk$set(comment=NA, prompt=TRUE)
+library(Rcmdr)
+library(car)
+library(RcmdrMisc)
+```
+
+
+```{r echo=FALSE}
+# include this code chunk as-is to enable 3D graphs
+library(rgl)
+knitr::knit_hooks$set(webgl = hook_webgl)
+```
+
+```{r}
+.Table <- matrix(c(10,20,25,30), 2, 2, byrow=TRUE)
+dimnames(.Table) <- list("Variavel 1"=c("1", "2"), "VAriavel 2"=c("1", "2"))
+.Table  # Counts
+.Test <- chisq.test(.Table, correct=FALSE)
+.Test
+remove(.Test)
+remove(.Table)
+```
+
+```{r}
+library(colorspace, pos=23)
+```
+
+
+```{r}
+with(data, pie(table(Species), labels=levels(Species), xlab="", ylab="", 
+  main="Species", col=rainbow_hcl(3)))
+```
+
+```{r}
+with(data, pie(table(Species), labels=levels(Species), xlab="", ylab="", 
+  main="T?tulo do Gr?fico", col=palette()[2:4]))
+```
+
+```{r}
+with(data, Barplot(Species, xlab="Species", ylab="Frequency"))
+```
+
+```{r}
+library(leaps, pos=24)
+```
+
+
+```{r}
+plot(regsubsets(Petal.Length ~ Petal.Width + Sepal.Length + Sepal.Width, 
+  data=data, nbest=1, nvmax=4), scale='bic')
+```
+
+```{r}
+data<- within(data, {
+  fitted.RegModel.1 <- fitted(RegModel.1)
+  residuals.RegModel.1 <- residuals(RegModel.1)
+  rstudent.RegModel.1 <- rstudent(RegModel.1)
+  hatvalues.RegModel.1 <- hatvalues(RegModel.1)
+  cooks.distance.RegModel.1 <- cooks.distance(RegModel.1)
+  obsNumber <- 1:nrow(data) 
+})
+```
+
+```{r}
+summarySandwich(RegModel.1, type="hc3")
+```
+
+```{r}
+summarySandwich(RegModel.1, type="hc3")
+```
+
+```{r}
+library(zoo, pos=25)
+```
+
+
+```{r}
+library(lmtest, pos=25)
+```
+
+
+```{r}
+bptest(Petal.Length ~ Petal.Width + Sepal.Length + Sepal.Width, varformula 
+  = ~ fitted.values(RegModel.1), studentize=FALSE, data=data)
+```
+
+```{r}
+outlierTest(RegModel.1)
+```
+
+
+```{r}
+dwtest(Petal.Length ~ Petal.Width + Sepal.Length + Sepal.Width, 
+  alternative="greater", data=data)
+```
+
